@@ -1,0 +1,183 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm Nation | Feel The Music</title>
+    <link rel="stylesheet" href="style.css">
+    
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">RHYTHM NATION</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#concerts">Concerts</a></li>
+                <li><a href="#store">Merch</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <button class="login-btn" onclick="openModal('loginModal')">Login</button>
+            <button class="signup-btn" onclick="openModal('signupModal')">Sign Up</button>
+        </div>
+        
+        
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>EXPERIENCE THE <br> SOUND OF FREEDOM</h1>
+            <a href="#" class="btn">Listen Now</a>
+            <a href="#" class="btn secondary">Join the Fan Club</a>
+        </div>
+    </section>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loginModal')">×</span>
+            <h2>Login</h2>
+            <form>
+                <input type="email" placeholder="Email" required="">
+                <input type="password" placeholder="Password" required="">
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p>Don't have an account? 
+                <a href="#" onclick="switchModal('loginModal', 'signupModal')">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('signupModal')">×</span>
+            <h2>Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required="">
+                <input type="email" placeholder="Email" required="">
+                <input type="password" placeholder="Password" required="">
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+            <p>Already have an account? 
+                <a href="#" onclick="switchModal('signupModal', 'loginModal')">Login</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2><b>About Us</b></h2>
+        <p>Rhythm Nation is more than just a band; it's a movement of music lovers coming together to celebrate the power of sound.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="images/Image 1.jpeg" alt="Live Concert">
+            <img src="images/Image 2.jpeg" alt="Band Performing">
+            <img src="images/Image 3.jpeg" alt="Crowd Enjoying">
+        </div>
+    </section>
+
+    <!-- Concerts Section -->
+   
+    <!-- Merchandise Section -->
+    <section id="upcoming-concerts" class="upcoming-concerts-section">
+        <div class="overlay"></div>
+        <div class="content-container">
+            <h2>Upcoming concerts</h2>
+            <div class="concerts-grid">
+                <!-- Performance Card 1 -->
+                <div class="concerts-card">
+                    <img src="images/Image 4.jpg" alt="concerts 1">
+                    <div class="concerts-info">
+                        <h3>Rhythm Nation Live</h3>
+                        <p>Date: 15th April 2025</p>
+                        <p>Location: Mohali, Punjab</p>
+                        <button>Buy Tickets</button>
+                    </div>
+                </div>
+    
+                <!-- Performance Card 2 -->
+                <div class="concerts-card">
+                    <img src="images/Image 5.webp" alt="concerts 2">
+                    <div class="concerts-info">
+                        <h3>Beat Blast Festival</h3>
+                        <p>Date: 25th April 2025</p>
+                        <p>Location: Chandigarh, Punjab</p>
+                        <button>Buy Tickets</button>
+                    </div>
+                </div>
+    
+                <!-- Performance Card 3 -->
+                <div class="concerts-card">
+                    <img src="images/Image 6.jpeg" alt="concerts 4">
+                    <div class="concerts-info">
+                        <h3>The Grand Music Night</h3>
+                        <p>Date: 30th April 2025</p>
+                        <p>Location: Delhi</p>
+                        <button>Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required="">
+            <input type="email" placeholder="Your Email" required="">
+            <textarea placeholder="Your Message" required="" rows="3" cols="4"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loginModal')">×</span>
+            <h2>Login</h2>
+            <form>
+                <input type="email" placeholder="Email" required="">
+                <input type="password" placeholder="Password" required="">
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p>Don't have an account? 
+                <a href="#" onclick="switchModal('loginModal', 'signupModal')">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('signupModal')">×</span>
+            <h2>Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required="">
+                <input type="email" placeholder="Email" required="">
+                <input type="password" placeholder="Password" required="">
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+            <p>Already have an account? 
+                <a href="#" onclick="switchModal('signupModal', 'loginModal')">Login</a>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Rhythm Nation. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+
+
+
+</body></html>
