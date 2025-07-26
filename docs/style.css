@@ -134,8 +134,8 @@ nav a:hover {
 }
  
 @keyframes slider{
-    0%{background-image: url('images/signupbackimage.jpg');}
-    100%{background-image: url(images/CSSDesignbackground.png);}
+    0%{background-image: url('signupbackimage.jpg');}
+    100%{background-image: url('CSSDesignbackground.png');}
    
 }
 
