@@ -130,14 +130,14 @@ nav a:hover {
     padding: 10px 0;
     background-size: cover;
     background-position: center;
-    animation: slider 10s linear infinite;
+    animation: slider 7s linear infinite;
 }
  
-@keyframes slider{
-    0%{background-image: url('signupbackimage.jpg');}
-    50%{background-image: url('CSSDesignbackground.png');}
-      100%{background-image: url('sliderback3.jpg');}
-   
+@keyframes slider {
+  0%   { background-image: url('images/signupbackimage.jpg'); }
+  33%  { background-image: url('images/CSSDesignbackground.png'); }
+  66%  { background-image: url('images/sliderback.jpg'); }
+  100% { background-image: url('images/signupbackimage.jpg'); } 
 }
 
 .hero-content h1 {
