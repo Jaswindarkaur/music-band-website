@@ -134,12 +134,11 @@ nav a:hover {
 }
  
 @keyframes slider {
-    0%   { background-image: url('signupbackimage.jpg'); }
-    20%  { background-image: url('sliderback3.jpg'); }
-    40%  { background-image: url('CSSDesignbackground.png'); }
-    60%  { background-image: url('Gallary1.jpg'); }
-    80%  { background-image: url('Gallary11.jpg'); }
-    100% { background-image: url('signupbackimage.jpg'); } 
+    0%   { background-image: url('images/sliderback3.jpg'); } 
+    25%  { background-image: url('images/CSSDesignbackground.png'); }
+    50%  { background-image: url('images/Gallary1.jpg'); }
+    75%  { background-image: url('images/Gallary11.jpg'); }
+    100% { background-image: url('images/sliderback3.jpg'); }  
 }
 
 
