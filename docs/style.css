@@ -134,9 +134,9 @@ nav a:hover {
 }
  
 @keyframes slider {
-  0%   { background-image: url('images/signupbackimage.jpg'); }
-  50%  { background-image: url('images/CSSDesignbackground.png'); }
-  100%  { background-image: url('images/sliderback.jpg'); }
+  0%   { background-image: url('signupbackimage.jpg'); }
+  50%  { background-image: url('CSSDesignbackground.png'); }
+  100%  { background-image: url('sliderback3.jpg'); }
 }
 
 .hero-content h1 {
